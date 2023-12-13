@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Новая главная страница</title>
+</head>
+<body>
+{% block mainmenu %}
+<ul>
+{% for m in menu %}
+   <li>
+       <p>{{m.title}}</p>
+       <p>{{m.content}}</p>
+   </li>
+{% endfor %}
+</ul>
+{% endblock mainmenu %}
+{%block content %}
+{% endblock %}
+
+</body>
+</html>
