@@ -1,0 +1,35 @@
+/* Reset стилей для нормализации отображения в разных браузерах */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Выберите подходящий шрифт */
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333; /* Цвет текста */
+    background-color: #f8f8f8; /* Цвет фона */
+}
+
+.container {
+    width: 80%; /* Ширина контейнера */
+    margin: 0 auto; /* Центрирование контейнера */
+}
+
+.header {
+    background-color: #333; /* Цвет фона шапки */
+    color: #fff; /* Цвет текста в шапке */
+    padding: 20px; /* Внутренний отступ шапки */
+}
+
+.main-content {
+    padding: 20px; /* Внутренний отступ основного контента */
+}
+
+.footer {
+    background-color: #333; /* Цвет фона подвала */
+    color: #fff; /* Цвет текста в подвале */
+    padding: 10px; /* Внутренний отступ подвала */
+    text-align: center;
+}
